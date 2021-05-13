@@ -2,9 +2,10 @@ package br.senai.sp.jandira.viagem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-//import org.springframework.boot.builder.SpringApplicationBuilder;
-//import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+//import org.springframework.boot.builder.SpringApplicationBuilder; - descomentar para rodar em container
+//import org.springframework.boot.web.servlet.support.SpringBootServletInitializer; - descomentar para rodar em container
 
+// rodar em arquivo jar
 @SpringBootApplication
 public class ViagemApplication {
 
@@ -14,6 +15,8 @@ public class ViagemApplication {
 
 }
 
+
+// pra rodar em container
 //@SpringBootApplication
 //public class ViagemApplication extends SpringBootServletInitializer {
 //
